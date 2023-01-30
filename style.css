@@ -1,0 +1,199 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: #ffffffde;
+  background-color: #242424;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit
+}
+
+a:hover {
+  color: #535bf2
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center
+}
+
+#app {
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: space-between
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: .6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color .25s
+}
+
+button:hover {
+  border-color: #646cff
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #fff
+  }
+
+  a:hover {
+    color: #747bff
+  }
+
+  button {
+    background-color: #f9f9f9
+  }
+}
+
+div.svelte-f3ol1h {
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: .125rem
+}
+
+input.svelte-f3ol1h {
+  font-size: 2.5rem;
+  text-align: right
+}
+
+div.svelte-u2v6uv {
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: .125rem
+}
+
+input.svelte-u2v6uv {
+  font-size: 2.5rem;
+  text-align: right
+}
+
+.container.svelte-ugy98c.svelte-ugy98c {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: .5rem;
+  grid-auto-rows: minmax(100px, auto);
+  padding-left: 0;
+  margin-bottom: 1rem
+}
+
+button.item.svelte-ugy98c.svelte-ugy98c {
+  border: .125rem lightgray solid;
+  padding: .25rem;
+  flex: 1
+}
+
+.container.svelte-ugy98c>div.svelte-ugy98c {
+  position: relative;
+  display: flex
+}
+
+.selected.svelte-ugy98c button.item.svelte-ugy98c {
+  border-color: #646cff
+}
+
+.selected.svelte-ugy98c button.delete.svelte-ugy98c {
+  display: block
+}
+
+.control.svelte-ugy98c.svelte-ugy98c {
+  position: absolute;
+  top: .125rem;
+  right: .125rem;
+  opacity: .9
+}
+
+.control.svelte-ugy98c>div.svelte-ugy98c {
+  display: inline-flex
+}
+
+.control.svelte-ugy98c button.svelte-ugy98c {
+  height: 1.5rem;
+  line-height: 1rem;
+  padding: .125rem;
+  margin: .125rem;
+  border: .0625rem lightgray solid;
+  border-radius: .25rem
+}
+
+.delete.svelte-ugy98c.svelte-ugy98c,
+.save.svelte-ugy98c.svelte-ugy98c {
+  display: none
+}
+
+.selected.dirty.svelte-ugy98c .save.svelte-ugy98c {
+  display: inline-block
+}
+
+.name.svelte-ugy98c.svelte-ugy98c {
+  font-weight: 700
+}
+
+div.new.svelte-ugy98c.svelte-ugy98c {
+  visibility: hidden
+}
+
+div.new.visible.svelte-ugy98c.svelte-ugy98c {
+  visibility: visible
+}
+
+div.new.svelte-ugy98c>button.svelte-ugy98c {
+  border: .175rem lightgray dashed
+}
+
+.inputs.svelte-mx118u.svelte-mx118u {
+  text-align: left;
+  font-size: 2.5rem
+}
+
+ul.svelte-mx118u.svelte-mx118u {
+  text-align: left;
+  list-style: none
+}
+
+li.svelte-mx118u.svelte-mx118u {
+  margin-bottom: .3rem
+}
+
+li.svelte-mx118u:first-child summary.svelte-mx118u,
+li.svelte-mx118u:first-child summary .svelte-mx118u {
+  font-weight: 700
+}
+
+h1.svelte-oce8up {
+  font-size: 3.2em;
+  line-height: 1.1;
+  word-break: keep-all;
+  overflow-wrap: break-word;
+  margin-top: 0
+}
